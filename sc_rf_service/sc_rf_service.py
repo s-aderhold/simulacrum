@@ -327,6 +327,7 @@ class CavityPVGroup(PVGroup):
     ades: PvpropertyFloat = pvproperty(value=16.6, name='ADES', precision=1)
     aact: PvpropertyFloatRO = pvproperty(value=16.6, name='AACT',
                                          read_only=True, precision=1)
+    acon: PvpropertyFloat = pvproperty(value=16.6, name='ACON', precision=1)
     amean: PvpropertyFloatRO = pvproperty(value=16.6, name='AACTMEAN',
                                           read_only=True, precision=1)
     gdes: PvpropertyFloat = pvproperty(value=16.0, name='GDES', precision=1)
